@@ -24,6 +24,9 @@ It contains a Jupyter Notebook file that allows computing the accuracy metrics o
 
 **test:** contains the images created for testing the algorithms with data generated on a different environment. 
 
+Data folder, resized folder an test folder images are not included on Body and Hands evaluation as these are private images. The images are uploaded on the following Drive link, https://drive.google.com/drive/folders/1o3mngJps7lQou2gLtHKfzTmubZII9v1i?usp=sharing . If you want to have access to the images click request access to view the images. However, you can create your own dataset with the Jupyter Notebook, with the correct folders and paths. 
+
+
 ### 3. Keypoints detection scripts
 Each patient has to rehabilitate a different body area. On this folder there are the python scripts that corresponds to each one of the area. 
 
