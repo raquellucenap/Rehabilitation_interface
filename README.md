@@ -24,6 +24,9 @@ It contains a Jupyter Notebook file that allows computing the accuracy metrics o
 
 **test:** contains the images created for testing the algorithms with data generated on a different environment. 
 
+Data folder, resized folder an test folder images are not included on Body and Hands evaluation as these are private images. The images are uploaded on the following Drive link, https://drive.google.com/drive/folders/1o3mngJps7lQou2gLtHKfzTmubZII9v1i?usp=sharing . If you want to have access to the images click request access to view the images. However, you can create your own dataset with the Jupyter Notebook, with the correct folders and paths. 
+
+
 ### 3. Keypoints detection scripts
 Each patient has to rehabilitate a different body area. On this folder there are the python scripts that corresponds to each one of the area. 
 
@@ -31,7 +34,7 @@ Each patient has to rehabilitate a different body area. On this folder there are
 
 **.spec files** provides the necessary information to automatically convert the script file (.py) to an executable file (.exe)
 
-Here are the lines that defines the .spec and how to convert them to executables using the Windows terminal. 
+Here are the lines that defines the .spec and how to convert them to executables using the Windows terminal. It is necessary to create the executable files to automatically run the body key detections code when the user clicks on the body area to be rehabilitated on the Processing interface. 
 
 
 ```pip install pyinstaller```
@@ -75,3 +78,5 @@ This folder is necessary to work with TensorFlow on my computing.
 **Thesis paper:** is the final master thesis paper *Digital music interfaces for motor rehabilitation: a motion capture and machine learning approach* developed on the Music Technology Group at UPF. 
 
 **Thesis presentation:** is the final master thesis presentation *Digital music interfaces for motor rehabilitation: a motion capture and machine learning approach* developed on the Music Technology Group at UPF. 
+
+**Saved model:** is the Movenet model running on Body keypoints detection. It has been downloaded from https://www.tensorflow.org/hub/tutorials/movenet . 
