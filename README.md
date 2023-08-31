@@ -78,3 +78,5 @@ This folder is necessary to work with TensorFlow on my computing.
 **Thesis paper:** is the final master thesis paper *Digital music interfaces for motor rehabilitation: a motion capture and machine learning approach* developed on the Music Technology Group at UPF. 
 
 **Thesis presentation:** is the final master thesis presentation *Digital music interfaces for motor rehabilitation: a motion capture and machine learning approach* developed on the Music Technology Group at UPF. 
+
+**Saved model:** is the Movenet model running on Body keypoints detection. It has been downloaded from https://www.tensorflow.org/hub/tutorials/movenet . 
