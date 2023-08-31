@@ -1,4 +1,4 @@
-# Rehabilitation_interface
+# Digital music interfaces for motor rehabilitation: a motion capture and machine learning approach
 The GitHub repository contains all the code, images, sounds and documents that are part of the Master's thesis degree.
 
 The description of the folder's content is:
