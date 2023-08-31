@@ -34,7 +34,7 @@ Each patient has to rehabilitate a different body area. On this folder there are
 
 **.spec files** provides the necessary information to automatically convert the script file (.py) to an executable file (.exe)
 
-Here are the lines that defines the .spec and how to convert them to executables using the Windows terminal. 
+Here are the lines that defines the .spec and how to convert them to executables using the Windows terminal. It is necessary to create the executable files to automatically run the body key detections code when the user clicks on the body area to be rehabilitated on the Processing interface. 
 
 
 ```pip install pyinstaller```
