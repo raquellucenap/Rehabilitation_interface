@@ -6,11 +6,12 @@ PImage imagen1, imagen2, imagen3, imagen4;
 Button boton1, boton2, boton3, boton4;
 
 //Base Path to change
-String basePath = "C:\\Users\\rache\\Documents\\Rehabilitation_interface\\Processing_interface";
-
+//String basePath = "C:\\Users\\rache\\Documents\\Rehabilitation_interface\\Processing_interface";
+//String basePath = "Users\\raquel\\Documents\\GitHub\\Rehabilitation_interface\\Processing_interface";
+String basePath = "/Users/raquel/Documents/GitHub/Rehabilitation_interface/Processing_interface/main_interface";
 //Paths
 String wekinatorPath = basePath + "\\Wekinator\\Wekinator.wekproj";
-String game1Path = basePath + "\\task_music\\task_music.pde";
+String game1Path = basePath + "/task_music/task_music.pde";
 String game2Path = basePath + "\\game_music\\game_music.pde";
 String game3Path = basePath + "\\task_drums\\task_drums.pde";
 String game4Path = basePath + "\\game_drums\\game_drums.pde";
@@ -44,13 +45,13 @@ void draw() {
 // Manage clicks
 void mouseClicked() {
   if (boton1.isClicked()) {
-    ejecutarComandoTerminal("cmd /c start " + game1Path);
+    ejecutarComandoTerminal("open " + game1Path);
   } else if (boton2.isClicked()) {
-    ejecutarComandoTerminal("cmd /c start " + game2Path);
+    ejecutarComandoTerminal("open " + game2Path);
   } else if (boton3.isClicked()) {
-    ejecutarComandoTerminal("cmd /c start " + game3Path);
+    ejecutarComandoTerminal("open " + game3Path);
   } else if (boton4.isClicked()) {
-    ejecutarComandoTerminal("cmd /c start " + game4Path);
+    ejecutarComandoTerminal("open " + game4Path);
   }
 }
 
